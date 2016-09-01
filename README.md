@@ -6,7 +6,7 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Select something from timezone field</li>
-	<li>Submit it</li>
-	<li>Check that data comes to console output as object with timezone's value</li>
+	<li>Fill fields in data in sign up form and Submit it</li>
+	<li>Check headers of failed request</li>
+	<li>There you may find request payload with provided data</li>
 </ul>
