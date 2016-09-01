@@ -7,6 +7,5 @@
 <h4>Actions</h4>
 <ul>
 	<li>Fill in data and submit form</li>
-	<li>Check post request in console</li>
-	<li>Check that headers has passed data</li>
+	<li>Check server console, it should output object with sended data</li>
 </ul>
