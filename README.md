@@ -7,5 +7,5 @@
 
 <h4>Output</h4>
 <ol>
-	<li>"Hello world!" text in browser</li>
+	<li>In console see that nodemon come to work</li>
 </ol>
