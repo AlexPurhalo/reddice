@@ -6,7 +6,7 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Fill in all the fields in SignUp form</li>
-	<li>Submit entered data</li>
-	<li>Check output with object in console</li>
+	<li>Select something from timezone field</li>
+	<li>Submit it</li>
+	<li>Check that data comes to console output as object with timezone's value</li>
 </ul>
