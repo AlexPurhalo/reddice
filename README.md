@@ -7,5 +7,6 @@
 
 <h4>Output</h4>
 <ul>
-	<li>In browser message: "Hello from react"</li>
+	<li>Change rendering of 'Greetings' component</li>
+	<li>And check that it changed in browser</li>
 </ul>
