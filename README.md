@@ -7,5 +7,5 @@
 <h4>Actions</h4>
 <ul>
 	<li>Go to Sign Up form and submit empty data</li>
-	<li>Check that validation works withour request sending</li>
+	<li>Ensure that errors still shows</li>
 </ul>
