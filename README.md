@@ -7,5 +7,5 @@
 <h4>Actions</h4>
 <ul>
 	<li>Go throw a form</li>
-	<li>Check Redux tool on action, state, diff</li>
+	<li>Check welcome message on the root page</li>
 </ul>
