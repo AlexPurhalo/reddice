@@ -7,6 +7,5 @@
 <h4>Actions</h4>
 <ul>
 	<li>Go throw a form</li>
-	<li>See that you were redirected to root page</li>
-	<li>Check that succes equal true in response</li>
+	<li>Check Redux tool on action, state, diff</li>
 </ul>
