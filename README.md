@@ -1,11 +1,11 @@
+<h3>"Hello World!" message from html file</h3>
 <h4>Actions</h4>
 <ol>
 	<li>$ sudo npm install</li>
-	<li>$ nom run server</li>
+	<li>$ npm run server</li>
 </ol>
 
 <h4>Output</h4>
 <ol>
-	<li>message: "Running on localhost:3000" with rainbow color</li>
-	<li>"hello world" text in browser</li>
+	<li>"Hello world!" text in browser</li>
 </ol>
