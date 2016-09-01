@@ -8,4 +8,5 @@
 <ul>
 	<li>Go throw a form</li>
 	<li>Check welcome message on the root page</li>
+	<li>Close message clicking on acorded icon</li>
 </ul>
