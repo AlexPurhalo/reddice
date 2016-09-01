@@ -7,6 +7,5 @@
 
 <h4>Output</h4>
 <ul>
-	<li>Change rendering of 'Greetings' component</li>
-	<li>And check that it changed in browser</li>
+	<li>Navbar on the main page</li>
 </ul>
