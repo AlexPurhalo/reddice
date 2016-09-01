@@ -6,5 +6,5 @@
 
 <h4>Output</h4>
 <ul>
-	<li>Check links in header</li>
+	<li>Check form on signup page</li>
 </ul>
