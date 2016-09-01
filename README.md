@@ -6,6 +6,7 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Go to Sign Up form and submit empty data</li>
-	<li>Ensure that errors still shows</li>
+	<li>Go throw a form</li>
+	<li>See that you were redirected to root page</li>
+	<li>Check that succes equal true in response</li>
 </ul>
