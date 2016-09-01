@@ -13,7 +13,8 @@ export default class SignUpForm extends Component {
 			password: '',
 			passwordConfirmation: '',
 			timezone: '',
-			errors: {}
+			errors: {},
+			isLoading: false
 		};
 
 		this.onChange = this.onChange.bind(this);
@@ -26,12 +27,12 @@ export default class SignUpForm extends Component {
 
 
 	onSubmit(e) {
-		this.setState({ errors: {} }); // backs empty object
+		this.setState({ errors: {}, isLoading: true }); // backs empty object
 		e.preventDefault();
 		this.props.userSignUpRequest(this.state)
 			.then(
 				() => {},
-				({ data }) => this.setState({ errors: data })
+				({ data }) => this.setState({ errors: data, isLoading: false })
 			)
 	}
 
@@ -102,7 +103,10 @@ export default class SignUpForm extends Component {
 				</div>
 
 				<div className="form-group">
-					<button className="btn btn-primary btn-lg">Sign Up</button>
+					<button
+						disabled={this.state.isLoading}
+						className="btn btn-primary btn-lg">
+						Sign Up</button>
 				</div>
 			</form>
 		);

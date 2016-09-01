@@ -46,11 +46,13 @@ function validateInput(data) {
 }
 
 router.post('/', (req, res) => {
-	const { errors, isValid} = validateInput(req.body);
+	setTimeout(() => {
+		const { errors, isValid} = validateInput(req.body);
 
-	if (!isValid) {
-		res.status(400).json(errors);
-	}
+		if (!isValid) {
+			res.status(400).json(errors);
+		}
+	}, 500)
 });
 
 export default router

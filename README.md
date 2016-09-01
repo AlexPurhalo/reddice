@@ -6,6 +6,6 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Go to Sign Up form and submit empty data</li>
-	<li>Check out styling and error messages outputting</li>
+	<li>Go to Sign Up form and submit any data</li>
+	<li>Check that button get disabled after request half second</li>
 </ul>
