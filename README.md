@@ -7,6 +7,5 @@
 <h4>Actions</h4>
 <ul>
 	<li>Go to Sign Up form and submit empty data</li>
-	<li>Check 400 error in console</li>
-	<li>In response check object with error messages</li>
+	<li>Using React tool in web console check out errors object with its error messages</li>
 </ul>

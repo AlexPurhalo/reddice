@@ -26,7 +26,11 @@ export default class SignUpForm extends Component {
 
 	onSubmit(e) {
 		e.preventDefault();
-		this.props.userSignUpRequest(this.state) //this.state - holds all the data from the form
+		this.props.userSignUpRequest(this.state)
+			.then(
+				() => {},
+				({ data }) => this.setState({ errors: data })
+			)
 	}
 
 	render() {
