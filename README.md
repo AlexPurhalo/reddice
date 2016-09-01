@@ -7,5 +7,5 @@
 
 <h4>Output</h4>
 <ul>
-	<li>Navbar on the main page</li>
+	<li>Check "Hi" message from children component</li>
 </ul>
