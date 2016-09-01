@@ -26,8 +26,7 @@ export default class SignUpForm extends Component {
 
 	onSubmit(e) {
 		e.preventDefault();
-		axios.post('/api/users', { user: this.state })
-
+		this.props.userSignUpRequest(this.state) //this.state - holds all the data from the form
 	}
 
 	render() {
@@ -97,3 +96,7 @@ export default class SignUpForm extends Component {
 		);
 	}
 }
+
+SignUpForm.propTypes = {
+	userSignUpRequest: React.PropTypes.func.isRequired
+};

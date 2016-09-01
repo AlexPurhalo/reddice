@@ -6,6 +6,7 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Check that you have no errors in c	<li>There you may find request payload with provided data</li>
-onsole</li>
+	<li>Fill in data and submit form</li>
+	<li>Check post request in console</li>
+	<li>Check that headers has passed data</li>
 </ul>
