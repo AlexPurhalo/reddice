@@ -6,7 +6,7 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Type something to signup form</li>
-	<li>Submit this data</li>
-	<li>check that as output you receive object with username key and its value</li>
+	<li>Fill in all the fields in SignUp form</li>
+	<li>Submit entered data</li>
+	<li>Check output with object in console</li>
 </ul>
