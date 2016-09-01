@@ -7,5 +7,5 @@
 
 <h4>Output</h4>
 <ul>
-	<li>Check "Hi" message from children component</li>
+	<li>on /signup page and check "Sign Up" text</li>
 </ul>
