@@ -6,7 +6,6 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Fill fields in data in sign up form and Submit it</li>
-	<li>Check headers of failed request</li>
-	<li>There you may find request payload with provided data</li>
+	<li>Check that you have no errors in c	<li>There you may find request payload with provided data</li>
+onsole</li>
 </ul>
