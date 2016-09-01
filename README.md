@@ -6,6 +6,6 @@
 </ol>
 
 <h4>Output</h4>
-<ol>
-	<li>In console see that nodemon come to work</li>
-</ol>
+<ul>
+	<li>In browser message: "Hello from react"</li>
+</ul>
