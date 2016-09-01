@@ -6,6 +6,7 @@
 
 <h4>Actions</h4>
 <ul>
-	<li>Fill in data and submit form</li>
-	<li>Check server console, it should output object with sended data</li>
+	<li>Go to Sign Up form and submit empty data</li>
+	<li>Check 400 error in console</li>
+	<li>In response check object with error messages</li>
 </ul>
