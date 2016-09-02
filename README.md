@@ -1,12 +1,16 @@
 <h4>PreActions</h4>
-<ul>
+<ol>
 	<li>$ sudo npm install</li>
 	<li>$ npm run server</li>
-</ul>
+	<li>$ createdb reddice</li>
+	<li>change your login and password for development in knexfile.js</li>
+</ol>
 
 <h4>Actions</h4>
-<ul>
-	<li>Go throw a form</li>
-	<li>Check welcome message on the root page</li>
-	<li>Close message clicking on acorded icon</li>
-</ul>
+<ol>
+	<li>Create new user in browser</li>
+	<li>$ psql reddice</li>
+	<li>reddice=# \x auto</li>
+	<li>reddice=# select * from users;</li>
+	<li>see that created user exist in db and has encrypted password</li>
+</ol>
