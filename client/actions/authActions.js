@@ -20,3 +20,11 @@ export function signIn(data) {
 		});
 	}
 }
+
+export function signOut() {
+	return dispatch => {
+		localStorage.removeItem('jwtToken');
+		setAuthorizationToken(false);
+		dispatch(setCurrentUser({})); // make user's object empty
+	}
+}

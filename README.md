@@ -8,11 +8,8 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Clean localStorage</li>
-	<li>Signin to existing account</li>
-	<li>Open Redux tool</li>
-	<Li>Check SET_CURRENT_USER</li>
-	<li>Go to State into auth object</li>
-	<li>Check that it has isAuthenticated flag as true</li>
-	<li>Check that it provides user object with user's id, username and decoded token</li>
+	<li>Signin if you not to existing account</li>
+	<li>Pay attention to Sign Out link</li>
+	<li>Go throw this link and check that you was signed out</li>
+	<li>Pay attention to links on header now, there are Sign In and Sign Up now</li>
 </ol>
