@@ -8,7 +8,9 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Enter any name to form only</li>
+	<li>Enter existing name to form only</li>
 	<li>Submit it form</li>
-	<li>In console check that request was sended</li>
+	<li>In responnse check it's data</li>
+	<li>Send request with not existing name</li>
+	<li>Check that request's response has null user</li>
 </ol>
