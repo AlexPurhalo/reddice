@@ -11,7 +11,8 @@ export default () => {
 
 				<div className="collapse navbar-collapse">
 					<ul className="nav navbar-nav navbar-right">
-						<li><Link to="signup">Sign up</Link></li>
+						<li><Link to="signup">Sign Up</Link></li>
+						<li><Link to="signin">Sign In</Link></li>
 					</ul>
 				</div>
 			</div>

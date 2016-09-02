@@ -8,8 +8,9 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Enter existing name or email to form</li>
-	<li>Submit it form</li>
-	<li>Check erorr message under field</li>
-	<li>Check that button disabled untill we will not choice not existing email or username</li>
+	<li>Go to /signin page</li>
+	<li>Check out Sign In form</li>
+	<li>Submit empty data to check errors comming</li>
+	<li>Check request with sended data</li>
+	<li>Check that button get disabled</li>
 </ol>
