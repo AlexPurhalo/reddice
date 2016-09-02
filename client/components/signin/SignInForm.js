@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TextFieldGroup from '../common/TextFieldGroup';
 import validateInput from '../../../server/shared/validations/signin';
 import { connect } from 'react-redux';
-import { signIn } from '../../actions/signIn'
+import { signIn } from '../../actions/authActions'
 
 class SignInForm extends Component {
 	constructor(props) {
