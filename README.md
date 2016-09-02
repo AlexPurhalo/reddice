@@ -8,9 +8,6 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Create new user in browser</li>
-	<li>$ psql reddice</li>
-	<li>reddice=# \x auto</li>
-	<li>reddice=# select * from users;</li>
-	<li>see that created user exist in db and has encrypted password</li>
+	<li>Try to create user with existing email or username</li>
+	<li>Check output with error message says that email in use</li>
 </ol>
