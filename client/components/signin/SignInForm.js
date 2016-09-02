@@ -84,7 +84,7 @@ SignInForm.propTypes = {
 };
 
 SignInForm.contextTypes = {
-	route: React.PropTypes.object.isRequired
+	router: React.PropTypes.object.isRequired
 };
 
 export default connect(null, { signIn })(SignInForm);

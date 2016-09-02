@@ -9,6 +9,7 @@
 <h4>Actions</h4>
 <ol>
 	<li>Go to /signin page</li>
-	<li>Try to signin with any data</li>
-	<li>Check error message</li>
+	<li>Signin to existing account</li>
+	<li>Check that you was redirected to root page</li>
+	<li>Check auth request on token in response</li>
 </ol>
