@@ -11,4 +11,5 @@
 	<li>Enter existing name or email to form</li>
 	<li>Submit it form</li>
 	<li>Check erorr message under field</li>
+	<li>Check that button disabled untill we will not choice not existing email or username</li>
 </ol>

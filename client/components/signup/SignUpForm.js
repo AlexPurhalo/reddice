@@ -17,7 +17,8 @@ export default class SignUpForm extends Component {
 			passwordConfirmation: '',
 			timezone: '',
 			errors: {},
-			isLoading: false
+			isLoading: false,
+			invalid: false
 		};
 
 		this.onChange = this.onChange.bind(this);
@@ -64,12 +65,15 @@ export default class SignUpForm extends Component {
 		if (val !== '') {
 			this.props.isUserExists(val).then(res => {
 				let errors = this.state.errors;
+				let invalid;
 				if (res.data.user) {
 					errors[field] = `There is user with such ${field}`
+					invalid = true;
 				} else {
 					errors[field] = '';
+					invalid = false
 				}
-				this.setState({ errors })
+				this.setState({ errors, invalid })
 			})
 		}
 	}
@@ -132,7 +136,7 @@ export default class SignUpForm extends Component {
 
 				<div className="form-group">
 					<button
-						disabled={this.state.isLoading}
+						disabled={this.state.isLoading || this.state.invalid}
 						className="btn btn-primary btn-lg">
 						Sign Up</button>
 				</div>
