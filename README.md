@@ -8,6 +8,7 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Try to create user with existing email or username</li>
-	<li>Check output with error message says that email in use</li>
+	<li>Enter any name to form only</li>
+	<li>Submit it form</li>
+	<li>In console check that request was sended</li>
 </ol>

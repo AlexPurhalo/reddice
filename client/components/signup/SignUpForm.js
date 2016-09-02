@@ -22,6 +22,7 @@ export default class SignUpForm extends Component {
 
 		this.onChange = this.onChange.bind(this);
 		this.onSubmit = this.onSubmit.bind(this);
+		this.checkUserExists = this.checkUserExists.bind(this);
 	}
 
 	onChange(e) {
@@ -57,8 +58,18 @@ export default class SignUpForm extends Component {
 		}
 	}
 
+	checkUserExists(e) {
+		const field = e.target.name;
+		const val = e.target.value;
+		if (val !== '') {
+			this.props.isUserExists(val).then(res => {
+
+			})
+		}
+	}
+
 	render() {
-		const { errors } = this.state
+		const { errors } = this.state;
 		const options = map(timezones, (val, key) =>
 			<option key={val} value={val}>{key}</option>
 		);
@@ -72,7 +83,8 @@ export default class SignUpForm extends Component {
 					label="Username"
 					error={errors.username}
 					type="text"
-					onChange={this.onChange}/>
+					onChange={this.onChange}
+					checkUserExists={this.checkUserExists}/>
 
 				<TextFieldGroup
 					field="email"
@@ -80,7 +92,8 @@ export default class SignUpForm extends Component {
 					label="Email"
 					error={errors.email}
 					type="email"
-					onChange={this.onChange}/>
+					onChange={this.onChange}
+					checkUserExists={this.checkUserExists}/>
 
 				<TextFieldGroup
 					field="password"
@@ -124,7 +137,8 @@ export default class SignUpForm extends Component {
 
 SignUpForm.propTypes = {
 	userSignUpRequest: React.PropTypes.func.isRequired,
-	addFlashMessage: React.PropTypes.func.isRequired
+	addFlashMessage: React.PropTypes.func.isRequired,
+	isUserExists: React.PropTypes.func.isRequired
 };
 
 SignUpForm.contextTypes = {
