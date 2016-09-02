@@ -9,8 +9,6 @@
 <h4>Actions</h4>
 <ol>
 	<li>Go to /signin page</li>
-	<li>Check out Sign In form</li>
-	<li>Submit empty data to check errors comming</li>
-	<li>Check request with sended data</li>
-	<li>Check that button get disabled</li>
+	<li>Try to signin with any data</li>
+	<li>Check error message</li>
 </ol>
