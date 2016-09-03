@@ -8,8 +8,6 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Go to /new-event page</li>
-	<li>Click on create button as authenticated user and you'll get 201 with success: true in response</li>
-	<li>Click on button as unauthorizated user and you will get 401 with 'no token provided' error in response</li>
-	<li>Change token value from localStorage for authenticated user, and send request, you will get 403 with 'failed to authenticate' error in response</li>
+	<li>Go to /new-event page as unauthenticated user</li>
+	<li>Check that you was redirected to signin page with error message in UI</li>
 </ol>
