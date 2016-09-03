@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import TextFieldGroup from '../common/TextFieldGroup';
+import { connect } from 'react-redux';
+import { createEvent } from '../../actions/eventActions';
 
-export default class EventForm extends Component {
+class EventForm extends Component {
 	constructor(props) {
 		super(props);
 
@@ -21,6 +23,7 @@ export default class EventForm extends Component {
 
 	onSubmit(e) {
 		e.preventDefault();
+		this.props.createEvent(this.state);
 	}
 
 	render() {
@@ -45,3 +48,8 @@ export default class EventForm extends Component {
 	}
 }
 
+EventForm.propTypes = {
+	createEvent: React.PropTypes.func.isRequired
+};
+
+export default connect(null, { createEvent })(EventForm);
