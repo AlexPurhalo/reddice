@@ -13,6 +13,13 @@ export default function(ComposedComponent) {
 				this.context.router.push('/signin');
 			}
 		}
+
+		componentWillUpdate(nextProps) {
+			if(!nextProps.isAuthenticated) {
+				this.context.router.push('/');
+			}
+		}
+
 		render() {
 			return <ComposedComponent {...this.props} />; // all props that we have on this component
 		}

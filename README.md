@@ -8,6 +8,8 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Go to /new-event page as unauthenticated user</li>
-	<li>Check that you was redirected to signin page with error message in UI</li>
+	<li>Go throw authentication</li>
+	<li>Go to new-event page</li>
+	<li>Sign out from this page</li>
+	<li>See that you was redirected to root page</li>
 </ol>
