@@ -8,8 +8,6 @@
 
 <h4>Actions</h4>
 <ol>
-	<li>Signin if you not to existing account</li>
-	<li>Pay attention to Sign Out link</li>
-	<li>Go throw this link and check that you was signed out</li>
-	<li>Pay attention to links on header now, there are Sign In and Sign Up now</li>
+	<li>Go to /new-event page</li>
+	<li>Check form with Create button</li>
 </ol>
