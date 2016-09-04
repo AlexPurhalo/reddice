@@ -54,7 +54,7 @@ export default class SignUpForm extends Component {
 						});
 						this.context.router.push('/');
 					},
-					({ data }) => this.setState({ errors: data, isLoading: false })
+					(err) => this.setState({ errors: err.response.data, isLoading: false })
 				)
 		}
 	}

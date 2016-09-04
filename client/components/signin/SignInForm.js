@@ -36,7 +36,7 @@ class SignInForm extends Component {
 			this.setState({ errors: {}, isLoading: true });
 			this.props.signIn(this.state).then(
 				(res) => this.context.router.push('/'),
-				(err) => this.setState({ errors: err.data.errors, isLoading: false })
+				(err) => this.setState({ errors: err.response.data.errors, isLoading: false })
 			);
 		}
 	}
