@@ -9,7 +9,7 @@ export default {
 	],
 	output: {
 		path: '/',
-		publicPatch: '/'
+		publicPath: '/'
 	},
 	plugins: [
 		new webpack.NoErrorsPlugin(),
@@ -29,10 +29,6 @@ export default {
 		]
 	},
 	resolve: {
-		extensions: [ '', '.js' ]
-	},
-	node: {
-		net: 'empty',
-		dns: 'empty'
+		extentions: [ '', '.js' ]
 	}
 }
